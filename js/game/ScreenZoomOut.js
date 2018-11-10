@@ -43,7 +43,7 @@ function ScreenZoomOut(scene){
 
 	self.onComplete = null;
 	self.completed = false;
-	self.fullTimer = _s(40);
+	self.fullTimer = _s(400);
 	self.timer = self.fullTimer;
 	self.update = function(){
 
